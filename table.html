@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table HTML</title>
+</head>
+<body>
+    <!--contoh table sederhana-->
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Provinsi</th>
+                <th>Ibu kota</th>
+                <th>Populasi</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>Jawa Barat</td>
+                <td>Bandung</td>
+                <td>49,94 juta</td>
+            </tr>
+    
+            <tr>
+                <td>Maluku</td>
+                <td>Ambon</td>
+                <td>1,8 juta</td>
+            </tr>
+    
+            <tr>
+                <td>Riau</td>
+                <td>Pekanbaru</td>
+                <td>6,835 juta</td>
+            </tr>
+        </tbody>
+        <!--salah satu kegunaan tfoot-->
+        <tfoot>
+            <tr>
+                <th>Provinsi</th>
+                <th>Ibu kota</th>
+                <th>Populasi</th>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <!--Spanning-->
+    <table border="1">
+        <thead>
+            <tr>
+                <th rowspan="3">Tahun</th>
+                <th colspan="3">Morris 2010 <sup>[1]</sup></th>
+            </tr>
+            <tr>
+                <th rowspan="2">Populasi</th>
+                <th rowspan="2">Nama</th>
+                <th rowspan="1">Lokasi</th>
+            </tr>
+            <tr> <!--yg ii gmn caranya si??-->
+                <th>Sekarang</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">7.000 SM</td>
+                <td rowspan="3"><sup>[4]</sup>1.000</td>
+                <td>Beidha</td>
+                <td>Yordania</td>
+            </tr>
+            <tr>
+                <td>Basta</td>
+                <td>Yordania</td>
+            </tr>
+            <tr>
+                <td>Catalhoyuk</td>
+                <td>Turki</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
